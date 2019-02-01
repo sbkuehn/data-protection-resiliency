@@ -1,1 +1,1 @@
-# bcdr-protect-resilient
+# Business Continuity, Disaster Recovery, & Resiliency
