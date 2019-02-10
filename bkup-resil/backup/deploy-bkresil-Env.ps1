@@ -30,10 +30,4 @@ Set-AzureKeyVaultSecret -VaultName $HackKVName -Name "VMPassword" -SecretValue (
 
 #Step 6: Run deployment below after updating and SAVING the parameter file with your key vault info.  Make sure to update the paths to the json files or run the command from the same directory
 #Note: You may want to adjust the VM series deployed in the ARM template. Feel free to modify the ARM template to use a different VM Series.
-New-AzureRmResourceGroupDeployment `
-    -Name $HackName `
-    -ResourceGroupName $HackName `
-    -TemplateFile '.\bkup-resil-azuredeploy.json' `
-    -TemplateParameterFile '.\bckup-resil.parameters.json'
-    -Force -Verbose `
-    -ErrorVariable ErrorMessages
+New-AzureRmResourceGroupDeployment -Name $HackName -ResourceGroupName $HackName -TemplateFile '.\bkup-resil-azuredeploy.json' -TemplateParameterFile '.\bckup-resil.parameters.json' -Force -Verbose -ErrorVariable ErrorMessages
