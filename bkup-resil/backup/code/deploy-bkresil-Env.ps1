@@ -7,8 +7,8 @@
 # Install-Module -Name AzureRM -Force -Scope CurrentUser -AllowClobber
 
 #Step 1: Use a name no longer then five charactors all lowercase.  Your initials would work well if working in the same sub as others.
-$HackName = 'sbk'
-$subscription = '9c29eddd-8897-46b5-b8ca-503e7ba5b463'
+$HackName = '{input initials}'
+$subscription = '{subscription Id}'
 $location = 'East US'
 
 #Step 2: Create ResourceGroup after updating the location to one of your choice. Use get-AzureRmLocation to see a list
