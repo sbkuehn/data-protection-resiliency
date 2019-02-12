@@ -19,7 +19,7 @@ New-AzureRMResourceGroup -Name $HackName -Location $location
 $rg = Get-AzureRmresourcegroup -Name $HackName
 
 #Step 3: Create Key Vault and set flag to enable for template deployment with ARM
-$HackKVName = $HackName + 'bkupresil'
+$HackKVName = $HackName + 'bcdrbkresl'
 New-AzureRmKeyVault -VaultName $HackKVName -ResourceGroupName $rg.ResourceGroupName -Location $rg.Location -EnabledForTemplateDeployment
 
 #Step 4: Add password as a secret.  Note:this will prompt you for a user and password.  User should be vmadmin and a password that meet the azure pwd police like P@ssw0rd123!!
