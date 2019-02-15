@@ -1,2 +1,2 @@
-# Business Continuity, Disaster Recovery, & Resiliency
+# Azure Backup & Availability Zones
 Azure Discovery Days - Hands-On Guide
