@@ -7,4 +7,4 @@
 <br>3) You will create a Key Vault within the PowerShell file and input a VM secret. This will be used to populate your
 <br>parameters file later in the lab.
 <br>4) Open up the parameters json file. Adjust the following: Environment Prefix and Key Vault reference (make sure it's 
-<br>pointed to your subscription)
+<br>pointed to your subscription).
