@@ -1,4 +1,4 @@
-<b>Instructions - READ THIS FIRST!</b>
+<b>Instructions - READ ME FIRST!</b>
 <br><br>1) Open up the .ps1 file (if you're familiar with Key Vault, select the Key Vault .ps1 and adjust the parameters file).
 <br>2) Read through the text in the .ps1 file. The file will take you through multiple steps and outline the flow of what this
 <br>lab is trying to demonstrate. Inside each step, run the line of code individually for each step (do NOT run the .ps1 as a 
