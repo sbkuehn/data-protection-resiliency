@@ -1,3 +1,6 @@
+#Only run through these PowerShell commands if you are familiar with Key Vault and know how to reference the Key Vault in
+#the parameters file for the ARM Template.
+
 #PowerShell Commands to create an Azure Key Vault and deployment for Backup lab.
 #Make sure to install the VS Code extension for PowerShell or use Visual Studio
 #Tip: Show the Integrated Terminal from View\Integrated Terminal
