@@ -6,4 +6,4 @@ Azure Discovery Days - Hands-On Guide
 <br>2) Extract the files to your local machine.
 <br>3) Ensure you have Visual Studio Code installed to adjust the ARM templates.
 <br>4) If you are using a text editor that does not have an integrated PowerShell terminal, you can use the PowerShell ISE to run the ARM templates. 
-<br>5) If you are using Visual Studio or Visual Studio Community, you can right click and select deploy on the ARM Templates.
+<br>5) The lab consists of a backup lab and a resiliency lab. When you click on the folder, you will see both labs. The backup lab has a guide and code. The resiliency lab has a guide only.
