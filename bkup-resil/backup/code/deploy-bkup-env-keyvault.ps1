@@ -20,12 +20,11 @@ Connect-AzureRmAccount
 Get-AzureRmSubscription
 Select-AzureRmSubscription -SubscriptionId $subscription
 New-AzureRMResourceGroup -Name $LabName -Location $location
-$rg = Get-AzureRmresourcegroup -Name $LabName
 
 #Step 3: Create Key Vault and set flag to enable for template deployment with ARM
 $LabKVName = $LabName + 'bkresl'
-New-AzureRmKeyVault -VaultName $LabKVName -ResourceGroupName $rg.ResourceGroupName -Location `
-$rg.Location -EnabledForTemplateDeployment
+New-AzureRmKeyVault -VaultName $LabKVName -ResourceGroupName $LabName -Location `
+$location -EnabledForTemplateDeployment
 
 #Step 4: Add password as a secret.  Note:this will prompt you for a user and password.  The easiest would be vmadmin 
 #and a password that meets the azure pwd policies like P@ssw0rd123!! You will reference this in the bckup-parameters.json 
