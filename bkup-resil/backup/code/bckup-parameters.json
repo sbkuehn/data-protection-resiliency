@@ -6,12 +6,7 @@
       "value": "vmadmin"
     },
     "adminPassword": {
-      "reference": {
-        "keyVault": {
-          "id": "/subscriptions/9c29eddd-8897-46b5-b8ca-503e7ba5b463/resourceGroups/sbk/providers/Microsoft.KeyVault/vaults/sbkbkupresil"
-        },
-        "secretName": "VMPassword"
-      }
+      "value": "demo@pass123"
     },
     "envPrefixName": {
       "value": "sbk"
