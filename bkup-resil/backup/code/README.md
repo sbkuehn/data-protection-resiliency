@@ -1,5 +1,5 @@
 <b>Instructions - READ ME FIRST!</b>
-<br><br>1) Open up the .ps1 file (if you're familiar with Key Vault, select the Key Vault .ps1 and adjust the parameters file to run the template).
+<br><br>1) Open up the .ps1 file (if you're familiar with Key Vault, select the Key Vault .ps1 and adjust the parameters file to run the template - if you're not familiar with Key Vault, open up the other .ps1).
 <br>2) Read through the text in the .ps1 file. The file will take you through multiple steps and outline the flow of what this
 <br>lab is trying to demonstrate. Inside each step, run the line of code individually for each step (DO NOT run the .ps1 as a 
 <br>full script).
