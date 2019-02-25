@@ -5,9 +5,14 @@
     "adminUsername": {
       "value": "vmadmin"
     },
-    "adminPassword": {
-      "value": "demo@pass123"
-    },
+  "adminPassword": {
+    "reference": {
+      "keyVault": {
+        "id": "/subscriptions/{changeme}/resourceGroups/{changeme}/providers/Microsoft.KeyVault/vaults/{changeme}"
+      },
+      "secretName": "VMPassword"
+    }
+  },
     "envPrefixName": {
       "value": "chgme"
     },
