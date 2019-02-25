@@ -40,4 +40,4 @@ Set-AzureKeyVaultSecret -VaultName $LabKVName -Name "VMPassword" -SecretValue (G
 #Note: You may want to adjust the VM series deployed in the ARM template. Feel free to modify the ARM template to use a 
 #different VM Series.
 New-AzureRmResourceGroupDeployment -Name $LabName -ResourceGroupName $LabName -TemplateFile '.\bkup-azuredeploy.json' `
--TemplateParameterFile '.\bkup-parameters.json' -Force -Verbose -ErrorVariable ErrorMessages
+-TemplateParameterFile '.\bkup-keyvault-parameters.json' -Force -Verbose -ErrorVariable ErrorMessages
