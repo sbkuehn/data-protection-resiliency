@@ -31,7 +31,7 @@ $location -EnabledForTemplateDeployment
 #file.
 Set-AzureKeyVaultSecret -VaultName $LabKVName -Name "VMPassword" -SecretValue (Get-Credential).Password
 
-#Step 5: Update bckup-parameters.json file with your envPrefixName and Key Vault info example: 
+#Step 5: Update bkup-keyvault-parameters.json file with your envPrefixName and Key Vault info example: 
 #/subscriptions/{guid}/resourceGroups/{group-name}/providers/Microsoft.KeyVault/vaults/{vault-name}
 (Get-AzureRmKeyVault -VaultName $LabKVName).ResourceId
 
