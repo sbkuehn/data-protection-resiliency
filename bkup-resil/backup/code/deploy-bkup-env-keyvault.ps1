@@ -27,7 +27,7 @@ New-AzureRmKeyVault -VaultName $LabKVName -ResourceGroupName $LabName -Location 
 $location -EnabledForTemplateDeployment
 
 #Step 4: Add password as a secret.  Note:this will prompt you for a user and password.  The easiest would be vmadmin 
-#and a password that meets the azure pwd policies like P@ssw0rd123!! You will reference this in the bckup-parameters.json 
+#and a password that meets the azure pwd policies like P@ssw0rd123!! You will reference this in the bkup-keyvault-parameters.json 
 #file.
 Set-AzureKeyVaultSecret -VaultName $LabKVName -Name "VMPassword" -SecretValue (Get-Credential).Password
 
